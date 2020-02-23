@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path:'./config/.env'});
 const cloudinary = require('cloudinary').v2;
 
 const url = cloudinary.utils.download_zip_url({

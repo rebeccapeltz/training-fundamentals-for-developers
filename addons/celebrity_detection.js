@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path:'./config/.env'});
 const cloudinary = require('cloudinary').v2;
 
 cloudinary.uploader.upload('https://i0.wp.com/metalinjection.net/wp-content/uploads/2019/03/metallica.jpg', {

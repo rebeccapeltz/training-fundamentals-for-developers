@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path:'./config/.env'});
 const cloudinary = require('cloudinary').v2;
 
 cloudinary.uploader.upload('https://i0.wp.com/metro.co.uk/wp-content/uploads/2019/04/SEI_59793697-e1555334390108.jpg', {

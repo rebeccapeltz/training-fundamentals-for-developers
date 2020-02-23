@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path:'./config/.env'});
 const cloudinary = require('cloudinary').v2;
 
 cloudinary.uploader.upload('https://res.cloudinary.com/demo/image/upload/black_car.jpg', {

@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path:'./config/.env'});
 const cloudinary = require('cloudinary').v2;
 
 cloudinary.uploader.upload('https://compote.slate.com/images/b88dfc1c-68f7-4233-ac3e-1e14b9910fe6.jpg', {
